@@ -73,6 +73,7 @@ function newConnection(socket) {
     })
 }
 /*
+TEST
 function newConnection(socket) {
 	console.log("New connection:" + socket.id);
     var srvSockets = io.sockets.sockets;
